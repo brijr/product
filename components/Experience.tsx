@@ -33,7 +33,7 @@ export default function Experience() {
 												href={project.href}
 												className="text-md transition-all duration-500 hover:ml-4"
 											>
-												&rarr; {project.title}
+												-{'>'} {project.title}
 											</a>
 											{/* <p className='ml-4'>{project.description}</p> */}
 											<small className="ml-4 opacity-50">Built With: {project.techStack}</small>
