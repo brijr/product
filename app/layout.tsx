@@ -1,18 +1,15 @@
-import './globals.css'
+import './globals.css';
+import { Manrope } from '@next/font/google';
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
-    </html>
-  )
+const manrope = Manrope({ subsets: ['latin'] });
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+	return (
+		<html lang="en" className="text-slate-900 bg-slate-200 lg:p-12">
+			<head />
+			<body className={manrope.className}>
+				<div className="max-w-screen-lg m-auto">{children}</div>
+			</body>
+		</html>
+	);
 }
