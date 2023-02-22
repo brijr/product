@@ -3,7 +3,7 @@ import resume from '@/stores/resume.json';
 export default function Experience() {
 	return (
 		<section className="py-24">
-			<h2 className="text-4xl mb-12 font-semi-bold ">Most Recent Experience</h2>
+			<h2 className="text-3xl font-medium mb-6">Experience and Education</h2>
 			<ul>
 				{resume.jobs.map((job) => (
 					<li key={job.company} className="mb-12">
