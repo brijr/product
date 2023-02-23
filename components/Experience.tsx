@@ -74,8 +74,10 @@ export default function Experience() {
 						<small className="opacity-50 block">Figma, Adobe, and more!</small>
 					</h4>
 					<p className="border-l-2 border-l-slate-700 pl-4 mb-12">
-						I am passionate about constantly improving. I have worked heavily with Figma, Sketch,
-						Adobe XD
+						I am passionate about constantly improving and learning. I have worked heavily with
+						Figma, Sketch, and Adobe XD. I have also worked with Adobe Photoshop, Illustrator, and
+						InDesign professionally. These tools equip me to demonstrate and present design
+						solutions to clients and stakeholders.
 					</p>
 				</div>
 			</div>
