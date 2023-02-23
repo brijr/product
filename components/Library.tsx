@@ -33,7 +33,7 @@ const books = [
 		name: 'Know your Onions',
 		author: 'Drew de Soto',
 		link: 'https://www.amazon.com/Know-Your-Onions-Creative-Businessman/dp/9063692587?crid=2407C8HC3FQEE&keywords=know+your+onions&qid=1677175078&s=books&sprefix=know+your+onions,stripbooks,140&sr=1-1',
-		coverImage: 'https://m.media-amazon.com/images/I/51DlnjccG-L._SX322_BO1,204,203,200_.jpg'
+		coverImage: 'https://m.media-amazon.com/images/I/41stH9Lv6jS.jpg'
 	},
 	{
 		name: 'The Language of Graphic Design',
