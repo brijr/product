@@ -8,7 +8,7 @@ import Dribbble from '@/components/Dribbble';
 
 export default function Home() {
 	return (
-		<main>
+		<main className='p-6 lg:p-0'>
 			<HeroCards />
 			<Intro />
 			<CaseStudies />

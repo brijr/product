@@ -36,7 +36,7 @@ export default function CaseStudies() {
 			<ul className="grid gap-4 grid-cols-3">
 				{caseStudies.map(
 					(caseStudy: { name: string; desc: string; craftURL: string; bgImage: string }) => (
-						<li key={caseStudy.name} className="mb-4 z-50">
+						<li key={caseStudy.name} className="z-50">
 							<a
 								href={caseStudy.craftURL}
 								className="transition-all duration-500 p-12 hover:scale-95 text-white rounded-lg shadow-lg h-[500px] flex flex-col justify-between"
