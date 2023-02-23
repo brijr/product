@@ -34,7 +34,7 @@ export default function HeroCards() {
 		<section className="grid grid-cols-2 gap-4 py-24 text-white">
 			{/* card one */}
 			<div
-				className="h-[540px] p-16 rounded-xl shadow-lg flex flex-col justify-between"
+				className="h-[540px] z-50 slide-in-bottom p-16 rounded-xl shadow-lg flex flex-col justify-between"
 				style={{
 					backgroundImage: `url(${bgLeft.src})`,
 					backgroundSize: 'cover',
@@ -42,8 +42,8 @@ export default function HeroCards() {
 				}}
 			>
 				<div>
-					<h4 className="text-5xl font-semibold mb-6">Bridger Tower</h4>
-					<h5 className="text-4xl">Product Designer</h5>
+					<h4 className="text-5xl font-semibold mb-4">Bridger Tower</h4>
+					<h5 className="text-3xl">Product Designer</h5>
 				</div>
 				<p className="text-2xl">
 					I am a product designer located in Salt Lake City, Utah. I am passionate about the balance
@@ -52,7 +52,7 @@ export default function HeroCards() {
 			</div>
 			{/* card two */}
 			<div
-				className="h-[540px] p-16 rounded-xl shadow-lg flex flex-col justify-end items-end"
+				className="h-[540px] z-50 slide-in-bottom-delayed p-16 rounded-xl shadow-lg flex flex-col justify-end items-end"
 				style={{
 					backgroundImage: `url(${bgRight.src})`,
 					backgroundSize: 'cover',

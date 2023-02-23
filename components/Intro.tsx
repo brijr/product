@@ -1,8 +1,10 @@
 export default function Intro() {
 	return (
 		<section className="py-24">
-			<h2 className="text-3xl font-medium mb-6">Product Designer experienced in Development.</h2>
-			<p className="w-3/4 text-lg">
+			<h2 className="text-3xl font-medium mb-6 text-focus-in">
+				Product Designer experienced in Development.
+			</h2>
+			<p className="w-3/4 text-lg text-focus-in">
 				As an experienced developer and designer, I have a deep understanding of how technology
 				works and how to create products that meet user needs. I am able to work with
 				cross-functional teams to design and develop products that are both functional and
@@ -25,7 +27,7 @@ export default function Intro() {
 								d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.112 2.13"
 							/>
 						</svg>
-						<p className="transition-[500ms] hover:border-b-2 hover:border-b-slate-800">
+						<p className="transition-[500ms] text-focus-in hover:border-b-2 hover:border-b-slate-800">
 							Read my Resume
 						</p>
 					</a>
@@ -47,7 +49,7 @@ export default function Intro() {
 							/>
 						</svg>
 
-						<p className="transition-[500ms] hover:border-b-2 hover:border-b-slate-800">
+						<p className="transition-[500ms] text-focus-in hover:border-b-2 hover:border-b-slate-800">
 							See my Dev Portfolio
 						</p>
 					</a>
