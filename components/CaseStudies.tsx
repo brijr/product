@@ -49,7 +49,10 @@ export default function CaseStudies() {
 							}}
 						>
 							<h3 className="text-4xl font-medium mb-4">{caseStudy.name}</h3>
-							<p className="text-xl">{caseStudy.desc}</p>
+              <div>
+                <p className="text-xl mb-2">{caseStudy.desc}</p>
+                <p>Read More -{'>'}</p>
+              </div>
 						</a>
 					</li>
 				))}
