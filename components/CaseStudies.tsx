@@ -1,6 +1,3 @@
-import ampry from '@/public/outerspace.webp';
-import ReadinessReview from '@/public/readiness_review.jpg';
-
 const caseStudies = [
 	{
 		name: 'Ampry',
@@ -49,15 +46,15 @@ export default function CaseStudies() {
 							}}
 						>
 							<h3 className="text-4xl font-medium mb-4">{caseStudy.name}</h3>
-              <div>
-                <p className="text-xl mb-2">{caseStudy.desc}</p>
-                <p>Read More -{'>'}</p>
-              </div>
+							<div>
+								<p className="text-xl mb-2">{caseStudy.desc}</p>
+								<p>Read More -{'>'}</p>
+							</div>
 						</a>
 					</li>
 				))}
 			</ul>
-			<p className='flex justify-end w-full animate-pulse'>Scroll -{'>'}</p>
+			<p className="flex justify-end w-full animate-pulse">Scroll -{'>'}</p>
 		</section>
 	);
 }

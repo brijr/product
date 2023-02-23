@@ -48,7 +48,7 @@ export default function Experience() {
 				<div>
 					<h2 className="text-3xl font-medium mb-6">Education</h2>
 					{/* byu */}
-					<h4 className="text-xl mb-4 font-medium">
+					<h4 className="text-xl font-medium my-4">
 						Bachelors in Communications: Advertising{'  '}
 						<small className="opacity-50 block">Brigham Young University</small>
 					</h4>
@@ -63,10 +63,19 @@ export default function Experience() {
 						Google UX Design Certificate{'  '}
 						<small className="opacity-50 block">Google</small>
 					</h4>
-					<p className="border-l-2 border-l-slate-700 pl-4">
+					<p className="border-l-2 border-l-slate-700 pl-4 mb-12">
 						Obtained the Google UX Design Certificate through Coursera. Learning the foundations of
 						UX design, including empathizing with users, building wireframes and prototypes, and
 						conducting research to test your designs.
+					</p>
+					{/* Design tools */}
+					<h4 className="text-xl font-medium my-4">
+						8+ Years of Design Tool Experience{'  '}
+						<small className="opacity-50 block">Figma, Adobe, and more!</small>
+					</h4>
+					<p className="border-l-2 border-l-slate-700 pl-4 mb-12">
+						I am passionate about constantly improving. I have worked heavily with Figma, Sketch,
+						Adobe XD
 					</p>
 				</div>
 			</div>

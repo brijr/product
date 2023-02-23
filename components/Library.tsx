@@ -14,14 +14,38 @@ const books = [
 	{
 		name: 'The Laws of UX',
 		author: 'Jon Yablonski',
-		link: 'https://amzn.to/3INauiK',
+		link: 'https://lawsofux.com/',
 		coverImage: 'https://m.media-amazon.com/images/I/61OELobx9LL.jpg'
 	},
 	{
-		name: 'Hooked: How to Build Habit-Forming Products',
+		name: 'Hooked',
 		author: 'Eyal Nir',
 		link: 'https://amzn.to/3lQRkzw',
 		coverImage: 'https://m.media-amazon.com/images/I/51DlnjccG-L._SX322_BO1,204,203,200_.jpg'
+	},
+	{
+		name: 'A Primer of Visual Literacy',
+		author: 'Donis A. Dondis',
+		link: 'https://amzn.to/3KyrtGZ',
+		coverImage: 'https://m.media-amazon.com/images/I/71jJslF6KHL.jpg'
+	},
+	{
+		name: 'Know your Onions',
+		author: 'Drew de Soto',
+		link: 'https://www.amazon.com/Know-Your-Onions-Creative-Businessman/dp/9063692587?crid=2407C8HC3FQEE&keywords=know+your+onions&qid=1677175078&s=books&sprefix=know+your+onions,stripbooks,140&sr=1-1',
+		coverImage: 'https://m.media-amazon.com/images/I/51DlnjccG-L._SX322_BO1,204,203,200_.jpg'
+	},
+	{
+		name: 'The Language of Graphic Design',
+		author: 'Richard Poulin',
+		link: 'https://amzn.to/3EzyiV0',
+		coverImage: 'https://m.media-amazon.com/images/I/61HgbIVMGsL.jpg'
+	},
+	{
+		name: 'Thoughts on Design',
+		author: 'Paul Rand',
+		link: 'https://www.amazon.com/Thoughts-Design-Paul-Rand-ebook/dp/B00JVZ42I6?qid=1677175366&sr=8-4',
+		coverImage: 'https://m.media-amazon.com/images/I/517p3lWK19L.jpg'
 	}
 ];
 
@@ -42,10 +66,10 @@ export default function Library() {
 							rel="noreferrer"
 							className="w-auto flex flex-col h-full justify-between"
 						>
-							<p className="text-xl mb-6">{book.name}</p>
 							<div>
-								<img className="h-48" src={book.coverImage} alt="Book Cover" />
+								<img className="h-36 mb-6" src={book.coverImage} alt="Book Cover" />
 							</div>
+							<p className="text-xl h-12 mb-4">{book.name}</p>
 						</a>
 					</li>
 				))}

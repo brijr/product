@@ -12,9 +12,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<head />
 			<body className={manrope.className}>
 				<MovingBackground />
-				<div className="fixed text-4xl h-screen w-screen inset-0 flex flex-col flex-wrap justify-center items-center backdrop-blur-md bg-slate-400 bg-opacity-50 text-focus-out">
+				<div className="fixed text-4xl h-screen w-screen inset-0 flex flex-col flex-wrap justify-center items-center bg-slate-400 bg-opacity-50 text-focus-out">
 					<Image src={cap} className="w-32 mb-12 invert" alt="a keycap with a b on it"></Image>
-					<h2 className="font-medium mt-6">Bridger Tower is a Product Designer and Developer</h2>
+					{/* <h2 className="font-medium mt-6">Bridger Tower is a Product Designer and Developer</h2> */}
 				</div>
 				<div className="max-w-screen-lg m-auto text-focus-in-delayed">{children}</div>
 			</body>

@@ -50,7 +50,7 @@ function Design() {
 
 	return (
 		<section id="dribbble" className="my-24">
-			<h3 className="text-3xl mb-6">Recent Design Work</h3>
+			<h3 className="text-3xl font-medium mb-6">Recent Design Work</h3>
 			<ul className="grid grid-cols-2 md:grid-cols-3 gap-2">
 				{shots.map(
 					(shot: {

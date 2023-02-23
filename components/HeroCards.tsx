@@ -43,7 +43,7 @@ export default function HeroCards() {
 			>
 				<div>
 					<h4 className="text-5xl font-semibold mb-4">Bridger Tower</h4>
-					<h5 className="text-3xl">Product Designer</h5>
+					<h5 className="text-3xl">Product Design and Development</h5>
 				</div>
 				<p className="text-2xl">
 					I am a product designer located in Salt Lake City, Utah. I am passionate about the balance
