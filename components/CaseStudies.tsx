@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 const caseStudies = [
 	{
 		name: 'Ampry',
@@ -33,7 +35,7 @@ export default function CaseStudies() {
 	return (
 		<section className="py-24">
 			<h2 className="text-3xl font-medium mb-6">Featured Projects and Case Studies</h2>
-			<ul className="flex gap-4 overflow-x-auto flex-nowrap overflow-y-visible">
+			<ul className="flex gap-4 overflow-x-auto flex-nowrap overflow-y-visible cursor-grab">
 				{caseStudies.map((caseStudy) => (
 					<li key={caseStudy.name} className="mb-4 z-50">
 						<a
