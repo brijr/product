@@ -9,35 +9,35 @@ const caseStudies = [
 	{
 		name: 'Tackle 2022 State of Cloud Marketplace Report',
 		desc: 'Snippet about the project.',
-		craftURL: 'https://www.craft.do/s/e6xmQ19WCOxHR7',
+		craftURL: 'https://www.craft.do/s/NDiNZCfULg8ORc',
 		bgImage:
 			'https://images.unsplash.com/photo-1528155124528-06c125d81e89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80'
 	},
 	{
 		name: 'Tackle GTM Readiness Review',
 		desc: 'Snippet about the project.',
-		craftURL: 'https://www.craft.do/s/e6xmQ19WCOxHR7',
+		craftURL: 'https://www.craft.do/s/BbRnY5dCcf03US',
 		bgImage:
 			'https://images.unsplash.com/photo-1660513924321-d9142645a41d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2021&q=80'
 	},
 	{
 		name: 'HustleCoin',
 		desc: 'Snippet about the project.',
-		craftURL: 'https://www.craft.do/s/e6xmQ19WCOxHR7',
+		craftURL: 'https://www.craft.do/s/PhSYSouUITvX4e',
 		bgImage:
 			'https://images.unsplash.com/photo-1614854262340-ab1ca7d079c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
 	},
 	{
 		name: 'Tackle Web Design System',
 		desc: 'Snippet about the project.',
-		craftURL: 'https://www.craft.do/s/e6xmQ19WCOxHR7',
+		craftURL: 'https://www.craft.do/s/nuBGOYbtkJTJgi',
 		bgImage:
 			'https://images.unsplash.com/photo-1677109030990-32a34f10808a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80'
 	},
 	{
 		name: 'SoCal Flights',
 		desc: 'Snippet about the project.',
-		craftURL: 'https://www.craft.do/s/e6xmQ19WCOxHR7',
+		craftURL: 'https://www.craft.do/s/jmSGWzqvJMfRi1',
 		bgImage:
 			'https://images.unsplash.com/photo-1507812984078-917a274065be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2564&q=80'
 	}
