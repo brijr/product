@@ -4,6 +4,7 @@ import HeroCards from '@/components/HeroCards';
 import Experience from '@/components/Experience';
 import Footer from '@/components/Footer';
 import Library from '@/components/Library';
+import Dribbble from '@/components/Dribbble';
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 			<HeroCards />
 			<Intro />
 			<CaseStudies />
+			<Dribbble />
 			<Experience />
 			<Library />
 			<Footer />

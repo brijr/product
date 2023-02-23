@@ -34,7 +34,7 @@ export default function HeroCards() {
 		<section className="grid grid-cols-2 gap-4 py-24 text-white">
 			{/* card one */}
 			<div
-				className="h-[540px] z-50 slide-in-bottom p-16 rounded-xl shadow-lg flex flex-col justify-between"
+				className="h-[540px] z-50 text-focus-in p-16 rounded-xl shadow-lg flex flex-col justify-between"
 				style={{
 					backgroundImage: `url(${bgLeft.src})`,
 					backgroundSize: 'cover',
@@ -52,7 +52,7 @@ export default function HeroCards() {
 			</div>
 			{/* card two */}
 			<div
-				className="h-[540px] z-50 slide-in-bottom-delayed p-16 rounded-xl shadow-lg flex flex-col justify-end items-end"
+				className="h-[540px] z-50 text-focus-in p-16 rounded-xl shadow-lg flex flex-col justify-end items-end"
 				style={{
 					backgroundImage: `url(${bgRight.src})`,
 					backgroundSize: 'cover',
