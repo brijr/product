@@ -36,12 +36,12 @@ export default function CaseStudies() {
 	return (
 		<section className="py-24">
 			<h2 className="text-3xl font-medium mb-6">Featured Projects and Case Studies</h2>
-			<ul className="flex gap-4">
+			<ul className="flex gap-4 overflow-x-auto flex-nowrap overflow-y-visible">
 				{caseStudies.map((caseStudy) => (
-					<li key={caseStudy.name} className="mb-4">
+					<li key={caseStudy.name} className="mb-4 z-50">
 						<a
 							href={`https://btower.notion.site/${caseStudy.notionId}`}
-							className="transition-all duration-500 p-12 hover:mb-4 hover:-mt-4 text-white rounded-lg shadow-lg w-[350px] h-[500px] flex flex-col justify-between"
+							className="transition-all duration-500 p-12 hover:scale-95 text-white rounded-lg shadow-lg w-[350px] h-[500px] flex flex-col justify-between"
 							style={{
 								backgroundImage: `url("${caseStudy.bgImage}")`,
 								backgroundSize: 'cover',
@@ -54,6 +54,7 @@ export default function CaseStudies() {
 					</li>
 				))}
 			</ul>
+			<p className='flex justify-end w-full animate-pulse'>Scroll -{'>'}</p>
 		</section>
 	);
 }
