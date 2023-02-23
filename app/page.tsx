@@ -12,8 +12,8 @@ export default function Home() {
 			<HeroCards />
 			<Intro />
 			<CaseStudies />
-			<Dribbble />
 			<Experience />
+			<Dribbble />
 			<Library />
 			<Footer />
 		</main>
