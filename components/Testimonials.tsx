@@ -43,24 +43,26 @@ export default function Testimonials() {
 				<h2 className="text-3xl font-medium mb-6">Testimonials</h2>
 				<div className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
 					<ul>
-						{testimonials.map((testimonial) => (
-							<li className="mb-8 sm:break-inside-avoid">
-								<blockquote className="rounded-xl bg-gray-50 p-6 shadow-md">
-									<p className="leading-relaxed text-gray-700">{testimonial.quote}</p>
-								</blockquote>
-								<div className="mt-4 flex items-center gap-4">
-									<img
-										alt="Headshot"
-										src={testimonial.href}
-										className="h-12 w-12 rounded-full object-cover"
-									/>
-									<div className="text-sm">
-										<p className="font-medium">{testimonial.name}</p>
-										<p className="mt-1">{testimonial.title}</p>
+						{testimonials.map(
+							(testimonial: { quote: string; name: string; title: string; href: string }) => (
+								<li className="mb-8 sm:break-inside-avoid">
+									<blockquote className="rounded-xl bg-gray-50 p-6 shadow-md">
+										<p className="leading-relaxed text-gray-700">{testimonial.quote}</p>
+									</blockquote>
+									<div className="mt-4 flex items-center gap-4">
+										<img
+											alt="Headshot"
+											src={testimonial.href}
+											className="h-12 w-12 rounded-full object-cover"
+										/>
+										<div className="text-sm">
+											<p className="font-medium">{testimonial.name}</p>
+											<p className="mt-1">{testimonial.title}</p>
+										</div>
 									</div>
-								</div>
-							</li>
-						))}
+								</li>
+							)
+						)}
 					</ul>
 				</div>
 			</div>
