@@ -3,7 +3,7 @@ import resume from '@/stores/resume.json';
 export default function Experience() {
 	return (
 		<section className="py-24">
-			<div className="grid grid-cols-2 gap-12">
+			<div className="grid lg:grid-cols-2 gap-12">
 				<ul>
 					<h2 className="text-3xl font-medium mb-6">Experience</h2>
 					{resume.jobs.map((job) => (

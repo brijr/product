@@ -28,7 +28,7 @@ const links = [
 
 export default function Footer() {
 	return (
-		<footer className="flex justify-between pt-24">
+		<footer className="flex flex-col-reverse lg:flex-row justify-between pt-24">
 			<div>
 				<p className="text-xl mb-4">thank you for visiting ♥</p>
 				<a className="mb-4 block hover:text-slate-500" href="https://btower.dev">
@@ -46,7 +46,7 @@ export default function Footer() {
 				</a>
 				<p className="mb-4">© bridger tower | 2023 | bridgertower@gmail.com</p>
 			</div>
-			<ul className="flex flex-col items-end gap-2">
+			<ul className="flex flex-col lg:items-end gap-2 mb-16 lg:mb-0">
 				{links.map((link: { name: string; href: string }) => (
 					<li key={link.name}>
 						<a

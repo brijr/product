@@ -46,23 +46,24 @@ const caseStudies = [
 export default function CaseStudies() {
 	return (
 		<section className="py-24">
-			<h2 className="text-3xl font-medium mb-6">Featured Products and Case Studies</h2>
-			<ul className="grid gap-2 grid-cols-3">
+			<h2 className="text-3xl font-medium mb-2 lg:mb-6">Featured Products and Case Studies</h2>
+			<p className="lg:hidden mb-6">Click to learn more.</p>
+			<ul className="grid lg:gap-2 gap-4 lg:grid-cols-3">
 				{caseStudies.map(
 					(caseStudy: { name: string; desc: string; craftURL: string; bgImage: string }) => (
 						<li key={caseStudy.name} className="z-50">
 							<a
 								href={caseStudy.craftURL}
-								className="transition-all duration-500 p-6 hover:scale-95 text-white rounded-lg shadow-lg h-[500px] flex flex-col justify-between"
+								className="transition-all duration-500 p-6 hover:scale-95 text-white rounded-lg shadow-lg lg:h-[500px] flex flex-col justify-between"
 								style={{
 									backgroundImage: `url("${caseStudy.bgImage}")`,
 									backgroundSize: 'cover',
 									backgroundPosition: 'center'
 								}}
 							>
-								<h3 className="text-4xl font-medium mb-4">{caseStudy.name}</h3>
+								<h3 className="text-3xl lg:text-4xl font-medium mb-8 lg:mb-4">{caseStudy.name}</h3>
 								<div>
-									<p className="text-lg font-medium bg-slate-800 shadow-md text-slate-200 px-3 py-2 w-full rounded-md">
+									<p className="text-lg font-medium bg-slate-800 bg-opacity-50 lg:bg-opacity-100 shadow-md text-slate-200 px-3 py-2 w-3/4 lg:w-full rounded-md">
 										{caseStudy.desc}
 									</p>
 								</div>

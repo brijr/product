@@ -31,10 +31,10 @@ const links = [
 
 export default function HeroCards() {
 	return (
-		<section className="grid grid-cols-2 gap-4 py-24 text-white">
+		<section className="grid lg:grid-cols-2 gap-4 pb-24 pt-12 lg:py-24 text-white">
 			{/* card one */}
 			<div
-				className="h-[540px] float z-50 text-focus-in p-16 rounded-xl shadow-lg flex flex-col justify-between"
+				className="lg:h-[540px] float z-50 text-focus-in p-6 lg:p-16 rounded-xl shadow-lg flex flex-col justify-between"
 				style={{
 					backgroundImage: `url(${bgLeft.src})`,
 					backgroundSize: 'cover',
@@ -42,17 +42,19 @@ export default function HeroCards() {
 				}}
 			>
 				<div>
-					<h4 className="text-5xl font-semibold mb-4">Bridger Tower</h4>
-					<h5 className="text-3xl">Designer of Products, Experiences, and Interactions</h5>
+					<h4 className="text-5xl font-semibold lg:mb-4 lg:mt-0 mt-4 mb-8">Bridger Tower</h4>
+					<h5 className="text-3xl pb-24 lg:pb-0">
+						Designer of Products, Experiences, and Interactions
+					</h5>
 				</div>
-				<p className="text-2xl">
+				<p className="text-xl lg:text-2xl">
 					I am a product designer located in Salt Lake City, Utah. I am passionate about the balance
 					of aesthetics and usability in software and websites.
 				</p>
 			</div>
 			{/* card two */}
 			<div
-				className="h-[540px] float-delay z-50 text-focus-in p-16 rounded-xl shadow-lg flex flex-col justify-end items-end"
+				className="hidden lg:flex h-[540px] float-delay z-50 text-focus-in p-16 rounded-xl shadow-lg flex-col justify-end items-end"
 				style={{
 					backgroundImage: `url(${bgRight.src})`,
 					backgroundSize: 'cover',
