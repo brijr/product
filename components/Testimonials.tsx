@@ -45,7 +45,7 @@ export default function Testimonials() {
 					<ul>
 						{testimonials.map(
 							(testimonial: { quote: string; name: string; title: string; href: string }) => (
-								<li className="mb-8 sm:break-inside-avoid">
+								<li key={testimonial.name} className="mb-8 sm:break-inside-avoid">
 									<blockquote className="rounded-xl bg-gray-50 p-6 shadow-md">
 										<p className="leading-relaxed text-gray-700">{testimonial.quote}</p>
 									</blockquote>
