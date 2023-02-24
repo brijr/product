@@ -44,6 +44,25 @@ export default function Experience() {
 							</div>
 						</li>
 					))}
+					<a className="flex justify-start gap-2" href="https://read.cv/btower">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							strokeWidth={1.5}
+							stroke="currentColor"
+							className="w-6 h-6 text-focus-in"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.372L8.552 18.32m.009-.01l-.01.01m5.699-9.941l-7.81 7.81a1.5 1.5 0 002.112 2.13"
+							/>
+						</svg>
+						<p className="transition-[500ms] text-focus-in hover:border-b-2 hover:border-b-slate-800">
+							View the rest of my Resume
+						</p>
+					</a>
 				</ul>
 				<div>
 					<h2 className="text-3xl font-medium mb-6">Education</h2>
