@@ -54,6 +54,8 @@ export default function CaseStudies() {
 						<li key={caseStudy.name} className="z-50">
 							<a
 								href={caseStudy.craftURL}
+								target="_blank"
+								rel="noreferrer"
 								className="transition-all duration-500 p-6 hover:scale-95 text-white rounded-lg shadow-lg lg:h-[500px] flex flex-col justify-between"
 								style={{
 									backgroundImage: `url("${caseStudy.bgImage}")`,
