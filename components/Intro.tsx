@@ -12,7 +12,7 @@ export default function Intro() {
 			</p>
 			<div className="flex gap-6">
 				<div className="flex my-6">
-					<a className="flex justify-center gap-2" href="https://read.cv/btower">
+					<a className="flex justify-center gap-2" href="https://btower.dev">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
