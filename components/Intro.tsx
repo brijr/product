@@ -2,13 +2,13 @@ export default function Intro() {
 	return (
 		<section className="py-24">
 			<h2 className="text-3xl font-medium mb-6 text-focus-in">
-				Product Designer with passion for Code and Development.
+				Marketing Designer with passion for Code and Development.
 			</h2>
 			<p className="lg:w-3/4 text-lg text-focus-in">
 				As an experienced developer and designer, I have a deep understanding of how technology
 				works and how to create products that meet user needs. I am able to work with
-				cross-functional teams to design and develop products and systems that are both functional and
-				user-friendly.
+				cross-functional teams to design and develop products and systems that are both functional
+				and user-friendly.
 			</p>
 			<div className="flex gap-6">
 				<div className="flex my-6">
