@@ -3,11 +3,11 @@ import Script from 'next/script';
 export default function Head() {
 	return (
 		<>
-			<title>Bridger Tower is a Product Designer.</title>
+			<title>Bridger Tower is a Marketing Designer.</title>
 			<meta content="width=device-width, initial-scale=1" name="viewport" />
 			<meta
 				name="description"
-				content="Product Designer | Creator of Products, Experiences, and Interactions"
+				content="Marketing Designer | Creator of Products, Experiences, and Interactions"
 			/>
 			<link rel="icon" href="/favicon.ico" />
 			{/* Google Analytics */}

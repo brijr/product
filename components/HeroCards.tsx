@@ -48,8 +48,8 @@ export default function HeroCards() {
 					</h5>
 				</div>
 				<p className="text-xl lg:text-2xl">
-					I am a product designer located in Salt Lake City, Utah. I am passionate about the balance
-					of aesthetics and usability in software and websites.
+					I am a marketing designer located in Salt Lake City, Utah. I am passionate about the
+					balance of aesthetics and usability in software and websites.
 				</p>
 			</div>
 			{/* card two */}
