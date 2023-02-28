@@ -32,7 +32,7 @@ export default function Footer() {
 			<div>
 				<p className="text-xl mb-4">thank you for visiting ♥</p>
 				<a className="mb-4 block hover:text-slate-500" href="https://btower.dev">
-					[check out btower.dev for more on my coding exp.]
+					[check out btower.dev for more on my exp. and background]
 				</a>
 
 				<a className="mb-4 block hover:text-slate-500" href="https://github.com/brijr/product">
