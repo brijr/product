@@ -46,7 +46,7 @@ const caseStudies = [
 export default function CaseStudies() {
 	return (
 		<section className="py-24">
-			<h2 className="text-3xl font-medium mb-2 lg:mb-6">Featured Products and Case Studies</h2>
+			<h2 className="text-3xl font-medium mb-2 lg:mb-6">Featured Design Case Studies</h2>
 			<p className="lg:hidden mb-6">Click to learn more.</p>
 			<ul className="grid lg:gap-2 gap-4 lg:grid-cols-3">
 				{caseStudies.map(
